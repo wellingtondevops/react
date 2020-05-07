@@ -8,8 +8,9 @@ import ReactDOM from 'react-dom'
 // import Membro from './componentes/Membro'
 //import ComponenteComFuncao from './componentes/ComponenteComFuncao'
 // import Pai from './componentes/Pai'
-import ComponenteClasse from './componentes/ComponenteClasse'
-
+// import ComponenteClasse from './componentes/ComponenteClasse'
+//import Contador from './componentes/Contador'
+import Hook from './componentes/Hook'
 
 
 const elemento = document.getElementById('root')
@@ -17,7 +18,9 @@ const elemento = document.getElementById('root')
 
 ReactDOM.render(
     <div>
-        <ComponenteClasse valor ="Deu certo passar o valor para Classe" />
+        <Hook />
+        {/* <Contador numeroInicial={100}/>? */}
+        {/* <ComponenteClasse valor ="Deu certo passar o valor para Classe" /> */}
         {/* <Pai /> */}
         {/* <ComponenteComFuncao /> */}
         {/* <Familia sobrenome=" Pereira">
